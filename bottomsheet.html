@@ -1,19 +1,19 @@
 <md-bottom-sheet> 
-<md-list>
+<md-list layout='row'>
     <md-list-item>
-      <md-button expr:href='&quot;http://twitter.com/intent/tweet?text=&quot; + data:blog.title + &quot;&amp;url=&quot; + data:blog.url' target='_blank' class="md-grid-item-content">
+      <md-button expr:href='"http://twitter.com/intent/tweet?text=" + data:blog.title + "&amp;url=" + data:blog.url' target='_blank' class="md-grid-item-content">
        <img src='http://3.bp.blogspot.com/-mozpPyc4Zu8/VVx5eZehtSI/AAAAAAAAfyg/z1wjFGSceM8/s48/social-gplus.png'/>
         <div class="md-grid-text"> Google+ </div>
       </md-button>
     </md-list-item>
     <md-list-item>
-      <md-button expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:blog.url + &quot;&amp;t=&quot; + data:blog.title' target='_blank' class="md-grid-item-content" >
+      <md-button expr:href='"http://www.facebook.com/sharer.php?u=" + data:blog.url + "&amp;t=" + data:blog.title' target='_blank' class="md-grid-item-content" >
         <img src='http://3.bp.blogspot.com/-jKF83PKPbqY/VVx5ed4NlbI/AAAAAAAAfyY/NNwiSmXAbls/s48/social-facebook%27.png'/>
         <div class="md-grid-text"> Facebook </div>
       </md-button>
     </md-list-item>
     <md-list-item>
-      <md-button expr:href='&quot;https://plusone.google.com/_/+1/confirm?hl=&quot; + &quot;en&amp;url=&quot; + data:blog.url' target='_blank' class="md-grid-item-content" >
+      <md-button expr:href='"https://plusone.google.com/_/+1/confirm?hl=" + "en&amp;url=" + data:blog.url' target='_blank' class="md-grid-item-content" >
         <img src='http://2.bp.blogspot.com/-rkeyPwBqXVc/VVx5es7m-fI/AAAAAAAAfyc/Dav0b05r2JQ/s48/social-twitter.png'/>
         <div class="md-grid-text"> Twitter </div>
       </md-button>
