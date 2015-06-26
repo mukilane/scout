@@ -2,7 +2,8 @@ CACHE MANIFEST
 # Version 1
 
 CACHE:
-https://ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.css
+https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.css
+https://ajax.googleapis.com/ajax/libs/angular_material/0.10.0/angular-material.min.js
 https://www.blogger.com/static/v1/widgets/1943648796-widget_css_bundle.css
 https://apis.google.com/js/plusone.js
 http://pagead2.googlesyndication.com/pagead/show_ads.js
